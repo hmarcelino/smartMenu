@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+        <title>Smart Menu</title>
+
+        <link rel="stylesheet" type="text/css" href="smartmenu.css"></link>
+        <style type="text/css">
+
+        	body {
+        		background-color: #f7f6f3;
+        		font-size: 12px;
+			  	font-family: "trebuchet ms", Verdana, arial, sans-serif;
+        	}
+
+        	.container, ul {
+        		margin: 0;
+        		padding: 0;
+        		font-size: 0;
+        	}	
+
+        	li {
+        		margin-right: 3px;
+        		margin-bottom: 3px;
+        		-webkit-border-radius: 3px;
+			  	-moz-border-radius: 3px;
+			  	border-radius: 3px;
+			  	padding: 5px;
+
+			  	display: inline-block;
+			  	color: #fdfdfd;
+        		background-color: #333;
+        		font-size: 12px;
+        	}
+
+        </style>
+    </head>
+    <body>
+    	<h1>Smart Menu</h1>
+    	<p>A plugin that will adapt the menu according to the size of the container.</p>
+    	<p>Just resize the browser to see the menu adapting !</p>
+    	<hr/>
+    	<div class="container">
+    		<ul class="menus-container">
+    			<li>Menu small</li>
+    			<li>Menu little bigger</li>
+    			<li>Menu small</li>
+    			<li>Menu little bigger</li>
+    			<li>Menu little bigger</li>
+    			<li>Menu the biggest one</li>
+    			<li>Other Menu</li>
+    			<li>Menu the biggest one</li>
+    			<li>Other Menu</li>
+    		</ul>	
+    	</div>
+    </body>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="smartmenu.js"></script>
+
+    <script type="text/javascript">
+	    $(document).ready(function(){
+			$(".menus-container").smartMenu();
+	    });
+    </script>
+</html>
