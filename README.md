@@ -4,7 +4,7 @@ A plugin that will adapt the menu according to the size of the container.
 
 It will collapse all menus that break the inline of the menu into another menu and display those menus as submenus.
 
-See demo!
+See [demo](http://hmarcelino.github.io/smartMenu)!
 
 ## API
 
