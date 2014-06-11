@@ -37,10 +37,10 @@ See demo!
 
 #### Methods:
 
-`smartMenu('init')`: Initialize the plugin. This is done when creating a new instance of SmartMenu
+* `smartMenu('init')`: Initialize the plugin. This is done when creating a new instance of SmartMenu
 
-`smartMenu('adjust')`: Invoke this when you need to adjust the menu to the container. It is usefull when the option `adjustOnResize` is false.
+* `smartMenu('adjust')`: Invoke this when you need to adjust the menu to the container. It is usefull when the option `adjustOnResize` is false.
 
-`smartMenu('collapseAll')`: Collapse all the menus
+* `smartMenu('collapseAll')`: Collapse all the menus
 
-`smartMenu('destroy')`: Destroy this instance of SmartMenu.
+* `smartMenu('destroy')`: Destroy this instance of SmartMenu.
