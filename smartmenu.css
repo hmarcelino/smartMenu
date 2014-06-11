@@ -1,0 +1,36 @@
+li.smart-menu {
+    background-color: #3399CC !important;
+    width: 66px;
+    text-align: center;
+}
+
+li.smart-menu a.smart-menu-link {
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+li.smart-menu .sub-menus {
+    margin-top: 8px;
+    margin-left: -5px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 2px solid #3399CC;
+
+    padding: 5px;
+
+    position: absolute;
+    background-color: #fdfdfd;
+}
+
+li.smart-menu li {
+    margin-bottom: 0;
+
+    display: list-item;
+
+    text-align: left;
+    list-style: none;
+    color: #333;
+    background-color: #fdfdfd;
+}

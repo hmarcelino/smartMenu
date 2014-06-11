@@ -1,0 +1,25 @@
+body {
+    background-color: #f7f6f3;
+    font-size: 12px;
+    font-family: "trebuchet ms", Verdana, arial, sans-serif;
+}
+
+.container, ul.menus-container {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}   
+
+ul.menus-container li {
+    margin-right: 3px;
+    margin-bottom: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px;
+
+    display: inline-block;
+    color: #fdfdfd;
+    background-color: #333;
+    font-size: 12px;
+}
