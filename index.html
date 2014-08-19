@@ -1,97 +1,100 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>SmartMenu by hmarcelino</title>
+    <!doctype html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>SmartMenu by hmarcelino</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/index.css"></link>
-    <link rel="stylesheet" type="text/css" href="smartmenu.css"></link>
-</head>
+        <link rel="stylesheet" type="text/css" href="stylesheets/index.css"></link>
+        <link rel="stylesheet" type="text/css" href="smartmenu.css"></link>
+    </head>
 
-<body>
-        <h1>SmartMenu</h1>
-        <p>A plugin that will adapt the menu according to the size of the container.</p>
+    <body>
+        <div class="hm-header">
+            <h1>SmartMenu</h1>
+            <p>A plugin that will adapt the menu according to the size of the container.</p>
 
-        <ul>
-            <li><a href="https://github.com/hmarcelino/smartMenu/zipball/master">Download <strong>ZIP File</strong></a></li>
-            <li><a href="https://github.com/hmarcelino/smartMenu/tarball/master">Download <strong>TAR Ball</strong></a></li>
-            <li><a href="https://github.com/hmarcelino/smartMenu">View On <strong>GitHub</strong></a></li>
-        </ul>
-
-        <hr/>
-
-        <p>Just resize the browser to see the menu beeing smart !</p>
-        <div class="container">
-            <ul class="menus-container">
-              <li>Menu small</li>
-              <li>Menu little bigger</li>
-              <li>Menu small</li>
-              <li>Menu little bigger</li>
-              <li>Menu little bigger</li>
-              <li>Menu the biggest one</li>
-              <li>Other Menu</li>
-              <li>Menu the biggest one</li>
-              <li>Other Menu</li>
-            </ul>   
+            <ul>
+                <li><a href="https://github.com/hmarcelino/smartMenu/zipball/master">Download <span>ZIP File</span></a></li>
+                <li><a href="https://github.com/hmarcelino/smartMenu/tarball/master">Download <span>TAR Ball</span></a></li>
+                <li><a href="https://github.com/hmarcelino/smartMenu">View On <span>GitHub</span></a></li>
+            </ul>
         </div>
 
-        <br/>
+        <div class="hm-body">
+            <p>Just resize the browser to see the menu beeing smart !</p>
+            <div class="container">
+                <ul class="menus-container">
+                  <li>Menu small</li>
+                  <li>Menu little bigger</li>
+                  <li>Menu small</li>
+                  <li>Menu little bigger</li>
+                  <li>Menu little bigger</li>
+                  <li>Menu the biggest one</li>
+                  <li>Other Menu</li>
+                  <li>Menu the biggest one</li>
+                  <li>Other Menu</li>
+                </ul>
+            </div>
 
-        <h2><a name="api" class="anchor" href="#api"><span class="octicon octicon-link"></span></a>API</h2>
+            <br/>
 
-        <div class="highlight highlight-html"><pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"menus-container"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Menu small<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Menu little bigger<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Menu small<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Menu little bigger<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Menu little bigger<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Menu the biggest one<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Other Menu<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Menu the biggest one<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Other Menu<span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span>      
-</pre></div>
+            <h2><a name="api" class="anchor" href="#api"><span class="octicon octicon-link"></span></a>API</h2>
 
-        <h4><a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage:</h4>
+            <div class="highlight highlight-html"><pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"menus-container"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Menu small<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Menu little bigger<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Menu small<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Menu little bigger<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Menu little bigger<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Menu the biggest one<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Other Menu<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Menu the biggest one<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li&gt;</span>Other Menu<span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;/ul&gt;</span>
+                </pre>
+            </div>
 
-        <p><code>$(".menus-container").smartMenu(opts)</code></p>
+            <h4><a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage:</h4>
 
-        <h4><a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options:</h4>
+            <p><code>$(".menus-container").smartMenu(opts)</code></p>
 
-        <ul>
-            <li><p><code>moreText</code>: the text that appears when some menus are collapsed. Defaults to "More"</p></li>
-            <li><p><code>menuText</code>: the text that appears when all menus are collapsed. Defaults to "Menu"</p></li>
-            <li><p><code>adjustOnResize</code>: if the plugin should adjust automaticly when the browser is resized. Defaults to true.</p></li>
-        </ul>
+            <h4><a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options:</h4>
 
-        <h4><a name="methods" class="anchor" href="#methods"><span class="octicon octicon-link"></span></a>Methods:</h4>
+            <ul>
+                <li><p><strong>moreText</strong>: the text that appears when some menus are collapsed. Defaults to "More"</p></li>
+                <li><p><strong>menuText</strong>: the text that appears when all menus are collapsed. Defaults to "Menu"</p></li>
+                <li><p><strong>adjustOnResize</strong>: if the plugin should adjust automaticly when the browser is resized. Defaults to true.</p></li>
+            </ul>
 
-        <ul>
-            <li><p><code>smartMenu('init')</code>: Initialize the plugin. This is done when creating a new instance of SmartMenu</p></li>
-            <li><p><code>smartMenu('adjust')</code>: Invoke this when you need to adjust the menu to the container. It is usefull when the option <code>adjustOnResize</code> is false.</p></li>
-            <li><p><code>smartMenu('collapseAll')</code>: Collapse all the menus</p></li>
-            <li><p><code>smartMenu('destroy')</code>: Destroy this instance of SmartMenu.</p></li>
-        </ul>
+            <h4><a name="methods" class="anchor" href="#methods"><span class="octicon octicon-link"></span></a>Methods:</h4>
 
-    <script src="javascripts/scale.fix.js"></script>
-
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="smartmenu.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-              $(".menus-container").smartMenu();
-        });
-    </script>
-
-</body>
+            <ul>
+                <li><p><strong>smartMenu('init')</strong>: Initialize the plugin. This is done when creating a new instance of SmartMenu</p></li>
+                <li><p><strong>smartMenu('adjust')</strong>: Invoke this when you need to adjust the menu to the container. It is usefull when the option <strong>adjustOnResize</strong> is false.</p></li>
+                <li><p><strong>smartMenu('collapseAll')</strong>: Collapse all the menus</p></li>
+                <li><p><strong>smartMenu('destroy')</strong>: Destroy this instance of SmartMenu.</p></li>
+            </ul>
+        </div>
 
 
+        <script src="javascripts/scale.fix.js"></script>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="smartmenu.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                  $(".menus-container").smartMenu();
+            });
+        </script>
+
+    </body>
+</html>
